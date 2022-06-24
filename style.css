@@ -1,0 +1,36 @@
+body {
+    background-color: #e5e338;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#caixa {
+    background-color: white;
+    padding: 50px 70px;
+    margin: 60% 30%;
+}
+
+#adicionados {
+   color: #ec576b;
+   padding: 20px;
+}
+
+#ordenados {
+    color: #4ec5c1;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+input {
+    text-align: center;
+    border-radius: 3px;
+    padding: 9px;
+    margin-right: 10px;
+}
