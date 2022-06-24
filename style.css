@@ -34,3 +34,8 @@ input {
     padding: 9px;
     margin-right: 10px;
 }
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.707);
+}

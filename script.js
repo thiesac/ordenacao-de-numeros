@@ -4,7 +4,7 @@ function inserirNumeros() {
     let insereNumero = document.getElementById('inserir').value;
 
     if (insereNumero == "") {
-        alert("Insira um número");
+        alert("Insira números");
     } else {
         numeros.push(insereNumero);
     }
@@ -13,6 +13,10 @@ function inserirNumeros() {
 }
 
 function ordenarNumeros() {
-    let numerosEspacados = numeros.sort(); 
-    document.getElementById('numeros-ordenados').innerText = numerosEspacados.join(" | ");
+    if (numeros == "") {
+        alert("Insira números")
+    } else {
+        let numerosEspacados = numeros.sort(); 
+        document.getElementById('numeros-ordenados').innerText = numerosEspacados.join(" | ");
+    }
 }
